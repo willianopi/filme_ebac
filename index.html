@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Star Wars Streaming Landing Page</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="images/star-wars.svg" alt="Guerra Nas Estrelas">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Assine Agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__content__branding">
+                <img src="images/guerraNasEstrelas.svg" alt="Guerra Nas Estrelas">
+            </h1>
+            <h3 class="title--small">
+                As Melhores Histórias, em um só lugar.
+            </h3>
+            <p>
+                <a href="" class="link-text">Assinar o Guerra Nas Estrelas 1080p</a>
+                <br>
+                <spam class="text">
+                    R$7,90/mês. com contrato.
+                </spam>
+            </p>
+            <ul class="hero__content__combos">
+                <li class="hero__content__combos__combo">
+                    <button class="button">Assine Mensal 4k</button>
+                    <span class="text">R$ 14,90/mês com contrato</span>
+                </li>
+                <li class="hero__content__combos__combo"> 
+                    <button class="button">Assine Anual 4k</button>
+                    <span class="text">R$ 129,90/ano</span>
+                </li>
+            </ul>
+            <p class="text--small">
+                *Preço promocional por tempo limitado. Após o período promocional, o preço será de R$ 24,90/mês.
+            </p>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
+                Filmes
+            </button>
+            <button data-tab-button="populares" class="shows__tabs__button">
+                Series
+            </button>
+        </nav>
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="images/filmes/ep1.png" alt="Episodio 1">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/filmes/ep2.png" alt="Episodio 2">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/filmes/ep3.png" alt="Episodio 3">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/filmes/ep4.png" alt="Episodio 4">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/filmes/ep5.png" alt="Episodio 5">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/filmes/ep6.png" alt="Episodio 6">
+            </li>
+        </ul>
+        <ul data-tab-id="populares" class="shows__list">
+            <li class="shows__list__item">
+                <img src="images/seriado/ahsoka.png" alt="Seriado Ahsoka">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/seriado/andor.png" alt="Seriado Andor">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/seriado/cloneWars.png" alt="Seriado Clone Wars">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/seriado/obi_wan.jpg" alt="Seriado Obi wan">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/seriado/mando.png" alt="Seriado Mando">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/seriado/hanSolo.png" alt="Seriado Han Solo">
+            </li>
+        </ul>
+    </section>
+    <section class="image-text-section">
+        <img src="images/tv_pc_tablet_celular.png" alt="Image com TV Tablet Celular">
+        <div class="image-text-section__text__container">
+            <h2 class="title--big">Assista do seu jeito</h2>
+            <p class="text--big">
+                Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de títulos em 4K não para de crescer. Além disso, para a felicidade de todos, é possível assistir em até 4 telas ao mesmo tempo. 
+            </p>
+        </div>
+    </section>
+    <section class="image-text-section image-text-section--image-full-width">
+        <picture>
+            <source media="(max-width: 768px)" srcset="images/fundo_celular.png"/>
+            <img src="images/fundo_poster.png" alt="Image com TV Tablet Celular">
+        </picture>
+
+    </section>
+    <section class="available-devices">
+        <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="images/dispositivos/computador.png" alt="Computador">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Windows</li>
+                    <li>Mac</li>
+                    <li>Chrome OS</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="images/dispositivos/tv.png" alt="TV">
+                <h4 class="title--small">Smart TV</h4>
+                <ul class="text">
+                    <li>TVs LG</li>
+                    <li>Chromecast</li>
+                    <li>Android TV</li>
+                    <li>Apple TV</li>
+                    <li>Amazon Fire TV</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="images/dispositivos/videogames.png" alt="Tablet">
+                <h4 class="title--small">Videogames</h4>
+                <ul class="text">
+                    <li>PS4</li>
+                    <li>PS5</li>
+                    <li>Xbox</li>
+                    <li>Nintendo</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="images/dispositivos/celular.png" alt="Celular">
+                <h4 class="title--small">Celulares e tablets</h4>
+                <ul class="text">
+                    <li>Celulares e Tablets Android</li>
+                    <li>iPhone e iPad</li>
+                    <li>Tablets Amazon Fire</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">Perguntas Frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    O que está incluído no Guerra Nas Estrelas?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    O Guerra Nas Estrelas oferece: </br> Experiência de entretenimento exclusiva. </br> As melhores histórias da Guerra nas Estrelas, incluindo as trilogias clássicas, os spin-offs e as novas séries originais tudo em um só lugar. </br>
+                    Downloads ilimitados em até 10 dispositivos compatíveis. </br> Mais de 30 títulos em 4K UHD e HDR. </br> 
+                    A possibilidade de assistir em até 4 dispositivos compatíveis simultaneamente sem custo adicional.</br> IMAX Enhanced: disponível para alguns títulos recentes em dispositivos compatíveis com o Guerra Nas Estrelas. </br>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Quando vou receber o Poster?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Se você se inscreveu em nossa assinatura que inclui um pôster, ele será enviado para o endereço fornecido durante o cadastro. </br> O envio geralmente leva de 5 a 10 dias úteis após a confirmação da sua assinatura. </br>
+                    Fique atento ao e-mail de confirmação com detalhes sobre o rastreamento do seu pedido! </br> No momento, apenas a assinatura anual inclui o pôster de bonus.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Quais as formas de pagamento posso utilizar?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Você pode utilizar: cartão de débito, cartão de crédito, PayPal, Mercado Pago, e também empresas parceiras como Google Play Store, App Store da Apple; Mercado Livre e provedores locais de TV, telefonia e internet.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Como posso ver conteúdo com classificação indicativa até 16 e 18?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Para poder acessar o catálogo completo que inclui conteúdo com classificação indicativa até 16 e 18, todos os usuários do Guerra Nas Estrelas na América Latina devem atualizar as configurações de controle parental do perfil.
+                    É possível restringir o conteúdo de cada perfil e também adicionar um PIN de bloqueio. Os usuários que preferirem manter a configuração atual vão continuar aproveitando o Guerra Nas Estrelas com a classificação indicativa até 14, podendo alterá-la a qualquer momento em "Editar Perfis".
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Há uma avaliação gratuita disponível?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Sim! Nós oferecemos uma avaliação gratuita de 7 dias para que você possa explorar todo o conteúdo de Guerra nas Estrelas antes de se comprometer com uma assinatura. Aproveite para assistir a filmes icônicos e séries emocionantes!
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="images/guerraNasEstrelas.svg" alt="Guerra Nas Estrelas">
+        <ul class="footer__links">
+            <li class="footer__links__item">
+                <div class="language-selector">
+                    <img src="images/icones/globe.svg" alt="Golobo do mundo">
+                    <select>
+                        <option>English</option>
+                        <option selected>Português</option>
+                    </select>
+                </div>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--small">Termos e Condições de Uso</a>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--small">Política de privacidade</a>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--small">Proteção e Dados no Brasil</a>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--small">Anúncios personalizados</a>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--small">Dispositivos compatíveis</a>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--small">Ajuda</a>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--small">Sobre o Guerra Nas Estrelas</a>
+            </li>
+        </ul>
+        <p class="text--small">
+            ® 2024 Max, Guerra Nas Estrelas e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
+        </p>
+        <p class="text--small">
+            Guerra Nas Estrelas é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Guerra Nas Estrelas é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+        </p>
+        </div>
+    </footer>
+    <script src="js\main.js"></script>
+</body>
+</html>
